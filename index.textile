@@ -1,0 +1,50 @@
+---
+layout: default
+title: Home
+---
+
+h1. Seminare {{ site.year }}
+
+p(desc). Fortbildung für Menschen die mehr wissen wollen
+
+Persönliches Wachsen - Ganzheitliches Wissen - Lebensberatung - Erfolgsschulung
+
+* Persönliches Wachsen, Sinn finden, mit anderen in Kontakt treten können.
+* Übernahme der eigenen Verantwortung.
+* Therapieformen erlernen, damit wir Erleichterung oder Befreiung von Beschwerden finden.
+
+{{ site.year | minus:1979 }} Jahre Erfahrung mit verschiedenen Therapieformen, körperlicher und seelischer *Bewusstseinsarbeit*.
+
+ <div class="float-right" style="width:250px text-align:right">
+ 
+ <img alt="Katharina Barth" src="/res/images/portrait.png" />  
+
+ </div>
+
+bq. Am meisten lernte ich jedoch durch meine Krankheit,
+übers Leben selbst und über die wachsende Verbindung zu meinem inneren Wissen!                                
+
+bq. Ich öffne mich der Allweisheit Gottes in mir
+und lasse mich führen.
+Ich danke der Allweisheit Gottes.
+Ich vertraue. 
+
+p(salutation). 
+Ihre Katharina Barth
+
+
+ <div class="feature">
+
+"Zum Seminarprogramm {{ site.year }}":/seminar/{{ site.year }}
+
+ "Das Seminarprogramm {{ site.year }} gibt es auch hier zum Herunterladen!":/seminar/{{ site.year }}/programm.pdf (.pdf)
+
+ </div><!-- /feature -->
+
+ <hr />
+
+h1. Persönliche Einzelarbeit
+
+Wenn Sie ein Vier-Augen-Gespräch mit Augenbefundung wünschen, dann sind individuelle Beratung, Rückführung zur Selbst-ER-kenntnis und Körper-Psycho-Reinigung notwendig.
+
+*Anmeldung bei*

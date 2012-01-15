@@ -1,0 +1,19 @@
+#main-nav, #sub-nav {
+	display:none;
+}
+
+#masthead {
+	display: none;
+}
+
+#footer .credits {
+	display: none;
+}
+
+.pagetop {
+	display: none;
+}
+
+img {
+	display: none;
+}

@@ -1,0 +1,9 @@
+/* ---------------------------------------------------------- 
+Title:		  Import screen styles
+Author:   	william@graphics-plus.co.uk
+Version:  	2007/03/15
+------------------------------------------------------------- */
+
+@import url("reset.css"); 
+@import url("generic.css");
+@import url("layout.css");

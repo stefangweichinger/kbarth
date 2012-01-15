@@ -1,0 +1,694 @@
+/* ---------------------------------------------------------- 
+File:		generic.css
+Author:   	william@graphics-plus.co.uk
+Version:  	2007/01/26
+------------------------------------------------------------- */    
+
+                           
+/* Document
+------------------------------------------------------------- */
+html{
+    margin:;
+	padding:;
+	background:;
+}
+
+body{
+    text-align: left;
+/*	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;*/
+	font-family: Helvetica, sans-serif;
+	font-size: 92%;
+	line-height: 1em;
+/*	color: #0095d9;*/
+	color: #222;
+/*	font-family: Georgia, Times, "Times New Roman", serif;	*/
+
+/*	font-size: 76%;	*/  
+}
+
+
+/* Headings
+------------------------------------------------------------- */
+h1 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	color:;
+  	font-size: 2.3em;
+	
+	line-height: 1.5em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+	
+	font-weight: bold; 
+/*	font-style: italic;*/
+	font-variant:;
+
+	text-align:;
+	text-indent:;
+	text-decoration:;
+	text-transform:;
+
+	letter-spacing:;
+	word-spacing:;
+	
+	color: #0095d9;
+/*	border-bottom: 2px solid #0095d9;*/
+}
+
+h2 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 1.6em;
+	
+	line-height: 2em;
+	margin: 2em 0 .5em 0;
+	padding: 0;
+	
+	font-weight: bold; 
+	font-style:;
+	font-variant:;
+
+	text-align:;
+	text-indent:;
+	text-decoration:;
+	text-transform:;
+
+	letter-spacing:;
+	word-spacing:;
+	
+	display: block;
+/*	background: #f0f0f0;	*/
+	color: #0095d9;	
+	border-bottom: 1px dotted #0095d9;	
+}
+    
+h3 {
+	font-family: Georgia, serif;
+  	font-size: 1.5em;
+	
+	line-height: 1.3em;
+	margin: 1em 0 0.5em 0;
+	padding-top: .25em;
+	
+	font-weight: normal; 
+	font-style:;
+	font-variant:;
+
+	text-align:;
+	text-indent:;
+	text-decoration:;
+/*	text-transform: uppercase;*/
+
+/*	letter-spacing: .08em;*/
+	word-spacing:;
+	
+	border-bottom: 1px dotted #222;	
+}
+
+h4 {
+  font:;
+ 	font-size: 1.2em;
+	
+	line-height: 1.5em;
+	margin: 1em 0 0.25em 0;
+	padding: 0;
+	
+	font-weight: bold; 
+	font-style:;
+/*	font-variant: small-caps;*/
+
+	text-align:;
+	text-indent:;
+	text-decoration:;
+/*	text-transform: uppercase;*/
+/*	text-align: center;*/
+
+	letter-spacing:;
+	word-spacing:;
+}
+
+h5 {
+  	font-size: 1em;
+	
+	line-height: 2em;
+	margin: 0 0 0.25em 0;
+	padding: 0;
+	
+	font-weight: bold; 
+	font-style:;
+	font-variant:;
+
+	text-align:;
+	text-indent:;
+	text-decoration:;
+	text-transform: uppercase;
+
+	letter-spacing: .25em;
+	word-spacing:;
+}
+
+h6 {
+    font:;
+  	font-size: 1em;
+	
+	line-height: 1.3em;
+	margin: 0 0 0.25em 0;
+	padding: 0;
+	
+	font-weight:; 
+	font-style:;
+	font-variant:;
+
+	text-align:;
+	text-indent:;
+	text-decoration:;
+	text-transform:;
+
+	letter-spacing:;
+	word-spacing:;
+}
+
+
+/* Text
+------------------------------------------------------------- */
+p {
+    font:;
+	color: ;
+	font-size: 1em;
+	
+	line-height: 1.4em;     
+	margin: 0 0 1em 0;
+	padding: 0;
+	
+	font-style:;
+	font-weight:;
+	font-variant:;
+
+	text-align:;
+	text-indent:;
+	text-decoration:;
+	text-transform:;
+
+	letter-spacing:;
+	word-spacing:;    	 
+}
+
+blockquote {
+    font:;
+	color:;
+	font-size: 1em;
+	
+	line-height: 1.4em;     
+	margin: 0 0 10px 0;
+	padding-left: 2.5em;
+	
+	border:;
+ 
+	font-style: italic;
+	font-weight:;
+	font-variant:;
+
+	text-align:;
+	text-indent:;
+	text-decoration:;
+	text-transform:;
+
+	letter-spacing:;
+	word-spacing:;
+	
+	background: url('../img/quote.gif') no-repeat left top;	 
+}
+
+cite {
+    font:;
+	color:;
+}
+
+pre, code {
+    font: monospace;
+	color:;
+	font-size: 1em;
+	
+	line-height: 1.4em;     
+	margin: 0 0 1.5em 0;
+	padding: 0;
+
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+em, i {
+    font-style:italic;
+}
+  
+
+/* Lists
+------------------------------------------------------------- */
+ul, ol {
+	width:;
+	margin: 0 0 1em 1em;
+	padding: 0;
+	list-style: auto;	
+	line-height: 1.4em;	 
+}
+
+li {
+	list-style: auto;
+	float:;	
+	margin: 0 0 0.25em 0;
+	padding: 0;
+}
+
+ul {
+	width:;	
+	line-height:;
+}
+ul li {
+	list-style: disc;
+}
+ul ul {
+  margin: 0;
+}
+ul ul li {
+  list-style: none;
+}
+
+ol {
+	width:;
+	margin: 0 0 1.5em 0;
+	padding:;	
+	line-height:;
+}
+ol li {
+	list-style: none;
+}
+
+
+dl {
+    width:;
+	margin: 0 0 1.5em 0;
+	padding: 0;
+	
+	line-height: 1.4em;
+}
+
+dt {
+    font-weight: bold;
+	
+	margin: 0.25em 0 0.25em 0;
+	padding: 0;  
+}
+
+dd {
+    margin: 0 0 0 30px;
+	padding: 0;
+}
+
+
+/* Images
+------------------------------------------------------------- */
+img {
+    border: 0;             
+	
+	vertical-align: middle;		
+	margin: 0 0 1.5em 0;        
+
+
+}
+
+p img {
+  float: right;
+}
+
+a img  {}
+
+a:hover img  {}
+
+
+/* Links
+------------------------------------------------------------- */
+a, a:link, a:active {
+    font:;
+	font-weight: bold;
+	color: #222;
+	background-color:;  
+	text-decoration: underline; 
+	border-bottom:;
+}
+
+a:visited {
+	background-color:;
+	text-decoration:;
+	border-bottom:;  
+}
+
+a:hover, a:focus {
+
+	
+}
+
+p a {}
+cite a {}
+li a {}
+dt a {}       
+dd a {}
+
+
+/* Tables *TODO - clean up
+------------------------------------------------------------- */
+table {
+/*		width: 100%;	*/
+	margin: 0 0 1.5em 0;	 
+	padding: 0;           
+	
+	background: #fff;	
+/*	border: 1px solid black;	*/
+	border-width: 1px;     	
+	border-collapse:;
+	border-spacing: 0px;
+	
+	text-align:;
+}
+
+caption {
+   	font:;
+	font-weight: bold;
+	color:;
+	position:;
+	text-align:;
+	display:; 
+  	padding: 0 0 1.5em 0;  
+}
+
+thead {
+   	font:;
+	font-weight:;
+	background:;
+	text-align:;
+	margin:;
+  	padding-left:;
+}
+
+tbody {
+   	font:;
+	font-weight:;
+	color:;
+	text-align:;
+	background:;
+	margin:;
+	padding:; 
+}
+
+tfoot {
+    font:;
+	font-weight: bold;
+	color:;
+	text-align:;
+	background-color:;
+	margin:;
+	padding:; 
+}
+
+thead th, tbody th, tbody td, tfoot td {
+/*   	border-right: 1px solid #000;*/
+}
+
+tbody th {
+/*   	border-left: 1px solid #000;*/
+/*	border-bottom: 1px solid #000;*/
+}
+
+
+tr {
+   	font:;
+	color:;
+	background-color:;
+	
+	border-width: 0;
+	padding: 0;
+	margin: 0;     
+}
+
+tr.alt {
+   	font:;
+	color:;
+	background-color: #ececec;
+}
+
+th, td { 
+  	padding: 5px 20px 5px 0;
+  
+  	font-size:;
+  	line-height: 1.6em;
+
+  	text-align: left;
+}
+
+th {
+   	color: white; 
+	
+	font-weight: bold;     	
+}
+
+td {
+   	color:;
+	width:;
+	margin:;
+	padding:;
+	white-space: nowrap;
+/* 	border-width: 1px 0 0 0; 	*/
+/*	border-top: 1px solid black;*/
+/*	border-right:1px solid #000;     */
+}
+
+.date, .time, .num {
+  	text-align: right;
+}
+
+.date, .time {
+  	white-space: nowrap;
+}
+
+
+/* Forms
+------------------------------------------------------------- */
+form {
+   	width:;
+	margin: 0;
+	padding: 0; 
+}
+
+fieldset {
+	border: 1px solid #eee;  
+	width:;
+	margin: 0 0 1.5em 0;    
+	padding: 5px 10px;   	
+}
+
+legend {
+    font:;
+	color:;
+	background-color: white; 
+	margin: 0;
+	padding: 0;	 
+}
+
+label {
+	font-size:;
+	font-family:;
+	font-weight:;
+
+	margin:;
+	padding:;  
+}
+
+input, textarea, select {
+	font-family: arial, helvetica, verdana, sans-serif;
+	font-size: 1em;
+	margin: 0;
+	padding: 2px;  
+}
+
+textarea {
+	font-size:;
+	font-family:;
+
+	border:;
+	margin:;
+	padding:;
+
+}
+
+select {
+	border:;
+	margin:;
+	padding:;
+	font-size:;
+	font-family:;
+	vertical-align:middle;
+}
+
+optgroup {
+	font:;
+}
+
+option {
+	font:;
+}
+
+input {
+    border:;
+	margin:;
+	padding:;
+	font-size:;
+	font-family:;  
+}
+
+input.check {}
+
+input.radio {}
+
+input.file {}
+
+input.readonly {}
+
+input.button {
+ 	width: 10em;
+	border:1px solid black;
+	background-color: #ddd;
+}
+
+input.image {
+ 	border: none;
+	width: auto;
+	height: auto; 
+}
+
+
+/* Flashes
+------------------------------------------------------------- */
+#flash {
+	font-size:;
+	line-height:;
+}
+
+#flash ul {
+	width:;
+	
+	margin: 0 0 1.5em 0;
+	padding: 10px;
+	
+	border: 2px solid black;
+	text-align:;     
+	list-style: none;       
+}
+
+#flash li {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 0.25em 0.5em;     
+	
+	padding-left: 24px;
+	background-repeat: no-repeat;
+	background-position: 0em .22em;
+	background-attachment: scroll;
+}
+
+#flash ul.success {
+    border-color: #99CC99;
+	background-color: #E2F9E3;
+}
+
+#flash ul.success li {
+	color:;	
+	background-image: url('../img/accept.png');
+}
+
+#flash ul.error {
+	border-color: #f15c50;
+	background-color: #FFE9E9;
+}
+
+#flash ul.error li {
+	color:;
+	background-image: url('../img/delete.png');	
+}
+
+#flash ul.message {
+    border-color: #FFCC66;
+	background-color: #FFFFCC;
+}
+
+#flash ul.message li {
+	color:;
+	background-image: url('../img/error.png');		
+} 
+
+
+/* Hide / Space / Float / Clear
+------------------------------------------------------------- */
+hr {
+	display:none;
+}
+
+.hide {
+ 	/* display:none; */
+	visibility: hidden;
+}
+
+.show {
+ 	/* display:block; */
+}
+
+.seperate-below {
+ 	margin-bottom:  10px;
+	padding-bottom: 10px;
+}
+
+.seperate-left {
+ 	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.center {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.one-line {
+	display: inline;
+}
+
+.float-right {
+ 	float: right;
+	margin: 0 0 10px 30px;
+}
+
+.float-left {
+	float: left;
+	margin: 0 5px 5px 0;
+}
+
+.clear {
+	clear: both; 
+	height: 1px; 
+	margin: 0; 
+	padding: 0; 
+	font-size: 15px;
+	line-height: 1px; 
+}
+
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden; 
+}
+
+* html .clearfix {
+	/* Hides from IE-mac \*/
+	height: 1%;
+	/* End hide from IE-mac */ 
+}
