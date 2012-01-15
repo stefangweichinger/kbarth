@@ -25,7 +25,6 @@ html, body {
 #masthead ul {
 	font-size: 0.95em;
 	margin: 1em 0 1em 0;
-	font-family: Helvetica, Arial, Verdana, sans-serif;
 	letter-spacing: .1em;
 }
 #masthead li {
@@ -135,21 +134,16 @@ li span.pause {
 	font-size: 1em;
 	font-weight: bold;
 	padding: 20px;
-
-background: #c9eef6;
-/*	background: #e6e6e6;*/
-/*	color: #fff;*/
+/*  background: #c9eef6;*/
 	margin: 1em 0 2em 0;
-	border: 1px dotted #0095d9; 
-	border-left: 0;
-	border-right: 0;
+  border: 3px solid #80D7F1; 
 	clear: both;
 /*	-moz-border-radius: 1em;*/
-/*	-webkit-border-radius: 1em;*/
+
 /*	border-radius: 1em;*/
 }
 .feature a, .feature a:visited {
-/*	color: #fff;*/
+  color: #0095d9;
 }
 .feature h2 {
 	margin-top: 0;

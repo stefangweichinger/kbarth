@@ -49,7 +49,7 @@ Fr. 14.00 bis 18.00 Uhr, Sa. 9.00 bis 16.00 Uhr
 *Die Liebe und Güte Gottes, ist mit uns!*
 
  <div class="feature">
-  "Start einer neuen Gruppe -- 9. März":#März
+  "Start einer neuen Gruppe -- 9. März &rarr;":#März
  </div>
 
 

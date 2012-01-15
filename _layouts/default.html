@@ -45,7 +45,9 @@
       </div> <!-- /masthead -->
       <hr />
       {{ content }}
+      {% if page.url == '/index.html' %}
       {% include vcard.html %}
+      {% endif %}
     </div>
     <div id="footer">
     	<h4>Impressum</h4>

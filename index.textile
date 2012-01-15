@@ -35,9 +35,8 @@ Ihre Katharina Barth
 
  <div class="feature">
 
-"Zum Seminarprogramm {{ site.year }}":/seminar/{{ site.year }}
-
- "Das Seminarprogramm {{ site.year }} gibt es auch hier zum Herunterladen!":/seminar/{{ site.year }}/programm.pdf (.pdf)
+   "Zum Seminarprogramm {{ site.year }} online &rarr;":/seminar/{{ site.year }}<br><br>
+   "Das Seminarprogramm {{ site.year }} gibt es auch hier zum Herunterladen! &darr;":/seminar/{{ site.year }}/programm.pdf (.pdf)
 
  </div><!-- /feature -->
 
